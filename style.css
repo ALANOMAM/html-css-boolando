@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding:0;
     margin:0;
-    border: 1px dotted yellow;
 }
 
 
@@ -10,13 +9,18 @@
 
 header{
 background-color: rgba(255, 105, 0, 1);
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 .header-container{
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,8 +42,8 @@ ul li a{
 
 
 .logo img{
-    width: 400px;
-    height: 90px;
+    width: 200px;
+    height: 45px;
     color: white;
 }
 
@@ -50,6 +54,10 @@ color: white;
 /* fine header */
 
 /*inizio main*/
+
+main{
+    margin-top: 120px;
+}
 
 .main-container{
     max-width: 1100px;
@@ -67,10 +75,91 @@ main .images{
 
 }
 
-main img{
+  #img-box1{
+background-image:url("img/1.webp") ;
+background-position: center;
+background-size: cover;
 width: 340px;
 height: 480px;
+transition: 2s;
 }
+
+#img-box1:hover{
+    background-image:url("img/1b.webp") ;
+    transition: 2s;
+}
+
+
+
+#img-box2{
+    background-image:url("img/2.webp") ;
+    background-position: center;
+    background-size: cover;
+    width: 340px;
+    height: 480px;
+    transition: 2s;
+    }
+    
+    #img-box2:hover{
+        background-image:url("img/2b.webp") ;
+        transition: 2s;
+    }
+
+    #img-box3{
+        background-image:url("img/3.webp") ;
+        background-position: center;
+        background-size: cover;
+        width: 340px;
+        height: 480px;
+        transition: 2s;
+        }
+        
+        #img-box3:hover{
+            background-image:url("img/3b.webp") ;
+            transition: 2s;
+        }
+
+        #img-box4{
+            background-image:url("img/4.webp") ;
+            background-position: center;
+            background-size: cover;
+            width: 340px;
+            height: 480px;
+            transition: 2s;
+            }
+            
+            #img-box4:hover{
+                background-image:url("img/4b.webp") ;
+                transition: 2s;
+            }
+
+            #img-box5{
+                background-image:url("img/5.webp") ;
+                background-position: center;
+                background-size: cover;
+                width: 340px;
+                height: 480px;
+                transition: 2s;
+                }
+                
+                #img-box5:hover{
+                    background-image:url("img/5b.webp") ;
+                    transition: 2s;
+                }
+
+                #img-box6{
+                    background-image:url("img/6.webp") ;
+                    background-position: center;
+                    background-size: cover;
+                    width: 340px;
+                    height: 480px;
+                    transition: 2s;
+                    }
+                    
+                    #img-box6:hover{
+                        background-image:url("img/6b.webp") ;
+                        transition: 2s;
+                    }
 
 
 .image1,.image2,.image3,.image4,.image5,.image6{
