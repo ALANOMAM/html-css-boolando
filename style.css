@@ -71,8 +71,21 @@ width: 340px;
 height: 480px;
 }
 
+main .brand{
+font-weight: lighter;
+}
 
+main .details{
+font-weight: bold;
+}
 
+main span b{
+    color: red;
+}
+
+.info{
+    margin-bottom: 40px;
+}
 
 
 
