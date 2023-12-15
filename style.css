@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding:0;
     margin:0;
+    font-family: sans-serif;
 }
 
 
@@ -26,7 +27,7 @@ padding-bottom: 20px;
     align-items: center;
 }
 
-ul{
+ ul{
     display: flex;
     gap:40px;
 }
@@ -40,6 +41,10 @@ ul li a{
     color: white;
 }
 
+header ul:nth-child(1) li:hover{
+    text-decoration: underline;
+    color: white;
+}
 
 .logo img{
     width: 200px;
@@ -48,7 +53,7 @@ ul li a{
 }
 
 header .icons i{
-color: white;
+ color: white;
 }
 
 /* fine header */
@@ -176,6 +181,12 @@ transition: 2s;
  position:absolute;
  top:10px;
  left:300px;
+ transition: 0.5s;
+}
+
+.heart:hover{
+    color: red;
+    transition: 0.5s;
 }
 
 .green-red{
